@@ -14,4 +14,4 @@ def check_spam(text: str) -> str:
         print(kw, text)
         if kw in text:
             hit += 1
-    return "spam" if hit >= 2 else "ham", hit
+    return "spam" if hit >= 3 else "ham", hit
